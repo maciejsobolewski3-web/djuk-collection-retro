@@ -1,0 +1,11 @@
+{
+  "tool": "Built-in image_gen",
+  "collage": {
+    "asset": "retro-collage.webp",
+    "prompt": "Use case: ads-marketing. Asset: playful retro fashion illustration for the homepage of Djuk Collection, a women's clothing brand offering black and chocolate coordinated sets, leggings and cargo jumpsuits. Create a high-quality 3D clay and soft plastic editorial still life on a uniform pale buttercream background (#faf1d9). Six isolated objects arranged in a tidy but playful 2-column by 3-row grid with generous spaces, no overlap: top row chocolate crew-neck sweatshirt with a tiny gold side zipper, black sleeveless cargo jumpsuit with gold zipper and pockets; middle row curved pair of black high-waisted leggings, white chunky sneaker with ochre accents; bottom row rounded tomato-red shoulder bag, sculptural mustard-yellow flower with a pink center. Soft rounded forms, miniature product render, 1970s catalog styling, convincing tactile clay textures, subtle soft shadows, orthographic camera. Warm tomato red, butter yellow, powder pink, sky blue accents, dark chocolate and soft black clothes. Portrait 4:5 composition. Entire objects visible with clear outer margins. No people, no faces, no text, no logos, no borders, no UI. This image is a decorative fashion collage, not an exact product catalog."
+  },
+  "photo": {
+    "asset": "retro-campaign.webp",
+    "prompt": "Use case: photorealistic-natural. Asset: campaign photograph for Djuk Collection's playful retro-inspired shop. Reference image is the clothing to preserve: chocolate brown crew-neck sweatshirt with small gold side zipper near left hip, fitted matching leggings, white sneakers. Create a NEW editorial photo of an adult brunette woman wearing exactly that coordinated chocolate outfit, sitting sideways in a chunky mustard yellow 1970s lounge chair. Warm powder-pink seamless studio backdrop, rounded sky-blue side table to one side, subtle soft shadows. Cheerful but sophisticated 1970s fashion catalog mood, natural face and hands, soft warm studio lighting, realistic cotton texture, no exaggerated glamour. Entire seated figure and shoes visible with generous headroom, portrait 4:5 composition. Keep the setting uncluttered, just the woman and two pieces of furniture. No words, logos, graphics or frames. Real photographic image rather than cartoon."
+  }
+}

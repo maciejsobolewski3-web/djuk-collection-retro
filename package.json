@@ -1,0 +1,11 @@
+{
+  "name": "djuk-collection-retro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Djuk Collection — frontend sklepu",
+  "scripts": {
+    "start": "python3 -m http.server 4177",
+    "check": "node --check app.js && node --check motion.js"
+  }
+}

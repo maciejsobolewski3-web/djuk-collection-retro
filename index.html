@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#f5b7c6">
+  <title>Djuk Collection — Retro</title>
+  <meta name="description" content="Djuk Collection. Odzież damska projektowana i szyta w Polsce. Odkryj komplety, legginsy i kombinezony w nowej odsłonie.">
+  <meta property="og:title" content="Djuk Collection — Retro">
+  <meta property="og:description" content="Odkryj nową odsłonę Djuk Collection. Polska marka, wyraziste detale.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;0,700;1,700;1,900&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <script>
+    try {
+      if (!sessionStorage.getItem('djuk.retro.intro.seen') && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        document.documentElement.classList.add('intro-pending');
+        window.djukIntroFallback = setTimeout(function () {
+          document.documentElement.classList.remove('intro-pending', 'intro-leaving');
+          document.dispatchEvent(new Event('djuk:intro-done'));
+        }, 4500);
+      }
+    } catch (_) {}
+  </script>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./retro.css">
+  <script src="./app.js" type="module"></script>
+</head>
+<body>
+  <div id="brand-intro" class="brand-intro" tabindex="-1" role="dialog" aria-modal="true" aria-label="Djuk Collection — powitanie"><div class="intro-top"><span class="intro-monogram" aria-hidden="true">DJK</span><span>PROJEKTUJEMY I SZYJEMY W POLSCE</span></div><div class="intro-center"><h2 class="intro-title"><span>Djuk</span><span>Collection.</span></h2><p class="intro-subtitle">Twoje nowe ulubione.</p></div><div class="intro-bottom"><span><i class="intro-loader" aria-hidden="true"></i>Poznaj Djuk Collection</span><button class="intro-skip" type="button">Pomiń intro <span aria-hidden="true">→</span></button></div></div>
+  <div id="site-shell">
+  <a class="skip-link" href="#main" data-action="skip">Przejdź do treści</a>
+  <header class="header" id="header">
+    <a class="logo" href="#/" aria-label="Djuk Collection — strona główna"><span>Djuk.</span></a>
+    <nav class="desktop-nav" aria-label="Nawigacja główna"><a href="#/kolekcja">Kolekcja</a><a href="#/kolekcja/komplety">Komplety</a><a href="#/kolekcja/legginsy">Legginsy</a><a href="#/o-nas">Nasza marka</a><a href="#/kontakt">Kontakt</a></nav>
+    <div class="header-actions"><button class="icon-button" data-action="search" aria-label="Szukaj produktów" data-icon="search"></button><a class="icon-button favorites-link" href="#/ulubione" aria-label="Ulubione" data-icon="heart"></a><button class="cart-trigger" data-action="cart" aria-label="Otwórz koszyk"><span data-icon="bag"></span><span data-cart-count>0</span></button><button class="icon-button mobile-menu" data-action="menu" aria-label="Otwórz menu" aria-expanded="false" data-icon="menu"></button></div>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <footer class="footer">
+    <div class="footer-top"><div><p class="eyebrow">DJUK COLLECTION</p><h2>Miło Cię<br>widzieć.</h2></div><div class="footer-column"><h3>Kolekcja</h3><a href="#/kolekcja/komplety">Komplety</a><a href="#/kolekcja/legginsy">Legginsy</a><a href="#/kolekcja/kombinezony">Kombinezony</a><a href="#/ulubione">Twoje ulubione</a></div><div class="footer-column"><h3>Poznaj nas</h3><a href="#/o-nas">Nasza marka</a><a href="#/kontakt">Kontakt i współpraca</a><a href="https://www.instagram.com/djukcollection/" target="_blank" rel="noopener noreferrer">Instagram ↗</a></div><div class="footer-column"><h3>Porozmawiajmy</h3><a href="mailto:djukcom@gmail.com">djukcom@gmail.com</a><a href="tel:+48660444614">+48 660 444 614</a><p>Ptak Fashion City<br>Pasaż Centralny, stoisko 39<br>Rzgów</p></div></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> Djuk Collection</span><span>Wersja pokazowa · zdjęcia i ceny przykładowe · bez sprzedaży online</span><a href="#/kontakt">Kontakt ↗</a></div>
+  </footer>
+  </div>
+  <dialog id="panel" class="panel"><div id="panel-content"></div></dialog>
+  <dialog id="modal" class="modal"><div id="modal-content"></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">Włącz JavaScript, aby przeglądać kolekcję i korzystać z koszyka. Kontakt: <a href="mailto:djukcom@gmail.com">djukcom@gmail.com</a>.</p></noscript>
+</body>
+</html>

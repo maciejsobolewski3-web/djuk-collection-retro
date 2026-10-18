@@ -1,0 +1,25 @@
+{
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "file": "hero-alternate.webp",
+      "reference": "hero.webp",
+      "prompt": "Use case: product-mockup. Create an additional professionally photographed catalogue view of the same outfit and same adult model in the reference image. A three-quarter front view of the same adult woman taking a gentle step toward camera-left, arms naturally relaxed. Keep exactly the black crew-neck sweatshirt with the gold zipper at the side and the black sports leggings and white sneakers. Preserve identity, clothing cut, colors and all existing construction details. Full body portrait, head and shoes completely in frame, modest margins. Neutral ecommerce photography, opaque everyday clothing. Seamless pale grey studio background #eeedeb, soft natural studio lighting, subtle grounding shadow. Single person, no collage, no words, no logos. Portrait 2:3. This will be a second product gallery photo, so make the pose and camera angle noticeably different from the supplied original."
+    },
+    {
+      "file": "chocolate-alternate.webp",
+      "reference": "chocolate.webp",
+      "prompt": "Use case: product-mockup. Create an additional professionally photographed catalogue view of the same outfit and same adult model in the reference image. A three-quarter side view of the same adult woman, facing toward camera-right and glancing naturally toward the camera. One foot forward, arms relaxed. Keep exactly the chocolate brown crew-neck sweatshirt with its gold side zipper, matching brown leggings, white sneakers. Preserve identity, clothing cut, colors and all existing construction details. Full body portrait, head and shoes completely in frame, modest margins. Neutral ecommerce photography, opaque everyday clothing. Seamless pale grey studio background #eeedeb, soft natural studio lighting, subtle grounding shadow. Single person, no collage, no words, no logos. Portrait 2:3. This will be a second product gallery photo, so make the pose and camera angle noticeably different from the supplied original."
+    },
+    {
+      "file": "leggings-alternate.webp",
+      "reference": "leggings.webp",
+      "prompt": "Use case: product-mockup. Create an additional professionally photographed catalogue view of the same outfit and same adult model in the reference image. A three-quarter front view of the same adult blonde woman taking a gentle step toward camera-right, one hand on hip. Keep exactly the fully opaque long-sleeved black sports top, high-waisted black leggings with the small gold plaque on waistband, white sneakers. Preserve identity, clothing cut, colors and all existing construction details. Full body portrait, head and shoes completely in frame, modest margins. Neutral ecommerce photography, opaque everyday clothing. Seamless pale grey studio background #eeedeb, soft natural studio lighting, subtle grounding shadow. Single person, no collage, no words, no logos. Portrait 2:3. This will be a second product gallery photo, so make the pose and camera angle noticeably different from the supplied original."
+    },
+    {
+      "file": "cargo-alternate.webp",
+      "reference": "cargo.webp",
+      "prompt": "Use case: product-mockup. Create an additional professionally photographed catalogue view of the same outfit and same adult model in the reference image. A three-quarter front fashion walking pose of the same adult woman, facing camera-left with one hand in a pocket, other arm naturally relaxed. Preserve exactly the black utility jumpsuit, sleeveless high collar, golden zip, waist drawstring, gold-button flap pockets and white sneakers. Preserve identity, clothing cut, colors and all existing construction details. Full body portrait, head and shoes completely in frame, modest margins. Neutral ecommerce photography, opaque everyday clothing. Seamless pale grey studio background #eeedeb, soft natural studio lighting, subtle grounding shadow. Single person, no collage, no words, no logos. Portrait 2:3. This will be a second product gallery photo, so make the pose and camera angle noticeably different from the supplied original."
+    }
+  ]
+}
